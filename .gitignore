@@ -1,0 +1,10 @@
+# KiCad temporary and backup files
+*.bak
+*.tmp
+*.log
+*.kicad_prl
+fp-info-cache
+
+# OS-specific
+.DS_Store
+Thumbs.db
