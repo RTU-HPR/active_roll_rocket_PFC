@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SZSMF6L5.0AT3G
+#/20732486/1784901/2.50/2/2/TVS Diode (Uni-directional)
+DEF SZSMF6L5.0AT3G D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SZSMF6L5.0AT3G" 400 250 50 H V L BNN
+F2 "SMFA2005CA" 400 150 50 H I L BNN
+F3 "https://cdn1-originals.webdamdb.com/14154_163817421?cache=1753841810&response-content-disposition=inline;filename=TVS_Diode_SZSMF6L_2025-5-16.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpbmFs" 400 50 50 H I L BNN
+F4 "Automotive TVS Diode, Surface Mount 600 W in SOD-123FL" 400 -50 50 H I L BNN "Description"
+F5 "1.08" 400 -150 50 H I L BNN "Height"
+F6 "LITTELFUSE" 400 -250 50 H I L BNN "Manufacturer_Name"
+F7 "SZSMF6L5.0AT3G" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "" 400 -450 50 H I L BNN "Mouser Part Number"
+F9 "" 400 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "" 400 -650 50 H I L BNN "Arrow Part Number"
+F11 "" 400 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#End Library

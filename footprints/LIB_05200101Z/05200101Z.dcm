@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 05200101Z
+D Fuse Block 10 A 600V 1 Circuit Cartridge Through Hole
+K
+F https://m.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_520_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

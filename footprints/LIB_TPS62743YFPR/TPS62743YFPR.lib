@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPS62743YFPR
+#/261835/1784901/2.50/8/3/Integrated Circuit
+DEF TPS62743YFPR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TPS62743YFPR" 1050 200 50 H V L CNN
+F2 "BGA8C40P2X4_87X156X53" 1050 100 50 H I L CNN
+F3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps62743" 1050 0 50 H I L CNN
+F4 "2V-5.5V input, ultra-low-power 300mA to 400mA step-down buck DCDC converter with 360nA Iq in WCSP pa" 1050 -100 50 H I L CNN "Description"
+F5 "0.531" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPS62743YFPR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TPS62743YFPR" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62743YFPR?qs=GJ%2F2ZGcr5uOOmkAlFfdpDw%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TPS62743YFPR" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tps62743yfpr/texas-instruments?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SW A1 0 0 200 R 50 50 0 0 P
+X VIN A2 0 -100 200 R 50 50 0 0 P
+X EN B1 0 -200 200 R 50 50 0 0 P
+X GND B2 0 -300 200 R 50 50 0 0 P
+X VSEL1 C1 1200 0 200 L 50 50 0 0 P
+X VOS C2 1200 -100 200 L 50 50 0 0 P
+X VSEL2 D1 1200 -200 200 L 50 50 0 0 P
+X VSEL3 D2 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

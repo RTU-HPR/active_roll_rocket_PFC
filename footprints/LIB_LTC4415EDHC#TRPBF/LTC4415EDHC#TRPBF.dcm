@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4415EDHC#TRPBF
+D IC OR CTRLR SRC SELECT 16DFN
+K
+F http://www.linear.com/docs/40584
+$ENDCMP
+#
+#End Doc Library

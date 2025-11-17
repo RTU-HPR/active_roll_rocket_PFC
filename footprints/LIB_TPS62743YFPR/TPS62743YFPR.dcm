@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS62743YFPR
+D 2V-5.5V input, ultra-low-power 300mA to 400mA step-down buck DCDC converter with 360nA Iq in WCSP pa
+K
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps62743
+$ENDCMP
+#
+#End Doc Library

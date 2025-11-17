@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX-M10M-00B
+D GPS Modules u-blox M10 GNSS LCC module, firmware in ROM, crystal oscillator
+K
+F https://content.u-blox.com/sites/default/files/documents/MAX-M10M_IntegrationManual_UBX-22038241.pdf
+$ENDCMP
+#
+#End Doc Library

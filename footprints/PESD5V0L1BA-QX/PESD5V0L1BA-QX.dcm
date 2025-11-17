@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD5V0L1BA-QX
+D ESD Protection Diodes / TVS Diodes Low capacitance bidirectional ESD protection diode in SOD323
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD5V0L1BA-Q.pdf
+$ENDCMP
+#
+#End Doc Library

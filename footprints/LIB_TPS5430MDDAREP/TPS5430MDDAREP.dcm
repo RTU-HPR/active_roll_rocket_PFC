@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS5430MDDAREP
+D Enhanced Product 5.5V to 36V Input, 3A, 500kHz Step Down Converter
+K
+F http://www.ti.com/lit/gpn/tps5430-ep
+$ENDCMP
+#
+#End Doc Library
