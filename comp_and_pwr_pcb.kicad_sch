@@ -10932,6 +10932,12 @@
 		(uuid "6e2c02ce-fd05-4b52-8e8c-947444b9f120")
 	)
 	(junction
+		(at 134.62 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73eaea7f-cbfc-440a-9865-ef048ca0ec58")
+	)
+	(junction
 		(at 454.66 360.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12140,6 +12146,16 @@
 			(type default)
 		)
 		(uuid "1ee307d1-4bd9-4e48-84a2-6d19b84839b6")
+	)
+	(wire
+		(pts
+			(xy 134.62 146.05) (xy 134.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1227fc-d39d-46dd-8703-2bdf31763c97")
 	)
 	(wire
 		(pts
@@ -13743,6 +13759,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 146.05) (xy 138.43 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73629661-5985-47ee-965f-12d4e38b491c")
+	)
+	(wire
+		(pts
 			(xy 524.51 321.31) (xy 516.89 321.31)
 		)
 		(stroke
@@ -13813,7 +13839,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 146.05) (xy 138.43 146.05)
+			(xy 129.54 146.05) (xy 134.62 146.05)
 		)
 		(stroke
 			(width 0)
@@ -27371,6 +27397,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 134.62 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af20063-afd1-427d-8a20-11631249469d")
+		(property "Reference" "#PWR098"
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a70bb91-1ec1-4504-a8b3-6a04ba0f8371")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 241.3 381 90)
 		(unit 1)
@@ -30654,6 +30746,74 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 134.62 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d4e52d-6c1b-46fa-ab4f-37ad5d996650")
+		(property "Reference" "D3"
+			(at 128.27 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5c8c0f5-01dd-4172-b4c6-c2680cfb53fb")
+		)
+		(pin "1"
+			(uuid "504ad014-78f6-4c89-af5c-f72b53c1ce55")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "D3")
 					(unit 1)
 				)
 			)
