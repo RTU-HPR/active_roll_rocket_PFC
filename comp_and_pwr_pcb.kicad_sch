@@ -3654,374 +3654,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ICM-42688-P:ICM-42688-P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 62.23 43.18 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ICM-42688-P"
-				(at 62.23 40.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "IIM42352"
-				(at 62.23 -59.36 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/DS-000347-ICM-42688-P-v1.5.pdf"
-				(at 62.23 -159.36 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "IMU (Inertial Measurement Unit), 6-Axis, Accelerometer, Gyroscope"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 62.23 -359.36 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "410-ICM-42688-P"
-				(at 62.23 -459.36 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-42688-P?qs=OlC7AqGiEDk8QrNAV728zw%3D%3D"
-				(at 62.23 -559.36 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "TDK"
-				(at 62.23 -659.36 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ICM-42688-P"
-				(at 62.23 -759.36 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ICM-42688-P_1_1"
-				(rectangle
-					(start 5.08 38.1)
-					(end 60.96 -20.32)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "AP_SDO_/_AP_AD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "RESV_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "RESV_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "INT1_/_INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 43.18 270)
-					(length 5.08)
-					(name "AP_SDA_/_AP_SDIO_/_AP_SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -25.4 90)
-					(length 5.08)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 43.18 270)
-					(length 5.08)
-					(name "AP_SCL_/_AP_SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -25.4 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 43.18 270)
-					(length 5.08)
-					(name "AP_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -25.4 90)
-					(length 5.08)
-					(name "RESV_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 66.04 0 180)
-					(length 5.08)
-					(name "RESV_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 66.04 -2.54 180)
-					(length 5.08)
-					(name "RESV_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 66.04 -5.08 180)
-					(length 5.08)
-					(name "INT2_/_FSYNC_/_CLKIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 66.04 -7.62 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0)
@@ -4518,6 +4150,426 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LSM6DSO:LSM6DSO"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LSM6DSO"
+				(at -10.16 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LSM6DSO:LGA14L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "SPARKFUN 6 DEGREES OF FREEDOM BR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "VFLGA-14 STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LSM6DSO/STMicroelectronics/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VALUE" "LSM6DS0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LSM6DSO/STMicroelectronics/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "IC-15837"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LSM6DSO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LSM6DSO_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "GND@6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "GND@7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "SDO/SA0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "SDIX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SCX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "OCSX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "SDOX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -8756,211 +8808,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMBT3904_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MMBT3904_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(offset 0)
@@ -9250,6 +9097,342 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:DMP3013SFV"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMP3013SFV"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Diodes*PowerDI3333*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMP3013SFV_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMP3013SFV_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10483,7 +10666,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 529.082 21.336 0)
+		(at 529.844 93.472 0)
 		(effects
 			(font
 				(size 4 4)
@@ -10710,6 +10893,12 @@
 		(uuid "1a00d679-3578-4a2a-89d1-a42cdfc58a53")
 	)
 	(junction
+		(at 514.35 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c8a2c8f-64f0-4847-9f4c-009411910362")
+	)
+	(junction
 		(at 200.66 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10734,16 +10923,16 @@
 		(uuid "25e75ca8-2a03-459b-885a-902ebce1a84d")
 	)
 	(junction
+		(at 497.84 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2768a481-5293-4715-a5aa-45ac639b89c8")
+	)
+	(junction
 		(at 265.43 381)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2983e585-37f6-456a-9253-ab1471e21c35")
-	)
-	(junction
-		(at 519.43 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2af0459f-aaa3-47dd-87a9-5c2c2e819874")
 	)
 	(junction
 		(at 519.43 241.3)
@@ -10920,6 +11109,12 @@
 		(uuid "6ac02018-0d5e-46d9-8737-d097d8e1cbc5")
 	)
 	(junction
+		(at 488.95 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce8f0cb-a5c2-4969-8ebd-1f911ad233a1")
+	)
+	(junction
 		(at 85.09 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11088,12 +11283,6 @@
 		(uuid "9c6c9256-2cc9-4378-8188-d5526dd1c6b3")
 	)
 	(junction
-		(at 513.08 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ded3f3a-0a0a-41b9-ba8c-b1191b9e9db0")
-	)
-	(junction
 		(at 55.88 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11104,12 +11293,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0d86a54-5b64-494c-8ba5-7fe3af48c52b")
-	)
-	(junction
-		(at 572.77 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a13dea10-0914-4139-84b6-eabacc526937")
 	)
 	(junction
 		(at 245.11 292.1)
@@ -11256,12 +11439,6 @@
 		(uuid "e8d9d8ad-2299-4b4e-98a2-46665cf5205e")
 	)
 	(junction
-		(at 563.88 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0fe436d-9de6-404b-9157-28f898f8cc8d")
-	)
-	(junction
 		(at 138.43 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11272,6 +11449,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5fce4fd-1403-4fa9-8e1c-74a4f7cb4f55")
+	)
+	(junction
+		(at 508 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f620a83c-cd3e-4ce3-8145-bcd421064db9")
+	)
+	(junction
+		(at 524.51 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7ebbc4a-32d5-4267-bbf0-7cd2226b59a8")
 	)
 	(junction
 		(at 454.66 381)
@@ -11308,16 +11497,8 @@
 		(uuid "040c8319-ad4f-4930-a418-12b81c9281cb")
 	)
 	(no_connect
-		(at 496.57 97.79)
-		(uuid "0d7086e9-cdd6-46ea-82c3-b059f65b8ef2")
-	)
-	(no_connect
-		(at 562.61 95.25)
-		(uuid "160c04db-b5af-40bf-b069-1462b68bc8e2")
-	)
-	(no_connect
-		(at 496.57 95.25)
-		(uuid "1b5aa4af-c6de-4249-8415-cfb1bd95113b")
+		(at 552.45 123.19)
+		(uuid "1adbe644-ef2d-4f09-a3cb-738c9da97836")
 	)
 	(no_connect
 		(at 440.69 129.54)
@@ -11342,6 +11523,10 @@
 	(no_connect
 		(at 439.42 242.57)
 		(uuid "2cbf4777-6495-4799-a4d2-ef920a3f01a5")
+	)
+	(no_connect
+		(at 552.45 125.73)
+		(uuid "33dab756-9004-4f81-b056-59c514faf142")
 	)
 	(no_connect
 		(at 255.27 361.95)
@@ -11420,20 +11605,20 @@
 		(uuid "b0b88e79-ad60-42c5-8f26-bb8cbcfdfe85")
 	)
 	(no_connect
-		(at 532.13 115.57)
-		(uuid "b269d9e8-7933-4889-9c7c-d92fa867ba26")
+		(at 527.05 115.57)
+		(uuid "b53db95c-cc4c-4931-b059-55c8fa9b6b14")
 	)
 	(no_connect
-		(at 562.61 92.71)
-		(uuid "c56685b8-76c9-4a5e-993e-fef5e6d18dfe")
+		(at 552.45 120.65)
+		(uuid "c50b8b40-b9ae-488a-a3ba-f567fdc1adfc")
 	)
 	(no_connect
 		(at 179.07 248.92)
 		(uuid "c5fe4440-ba9b-43bd-bc73-278bbc45170f")
 	)
 	(no_connect
-		(at 496.57 92.71)
-		(uuid "cf03060d-9c7b-410b-91d2-95b5cbe09f2e")
+		(at 552.45 128.27)
+		(uuid "cfab1fc7-8d6a-46c3-9904-36710cd4b715")
 	)
 	(no_connect
 		(at 469.9 243.84)
@@ -11442,6 +11627,10 @@
 	(no_connect
 		(at 439.42 232.41)
 		(uuid "e193f01b-7071-41ad-a107-63466c6a3280")
+	)
+	(no_connect
+		(at 527.05 118.11)
+		(uuid "e292d7a4-78ec-4d1b-b98e-f33d7a74460f")
 	)
 	(no_connect
 		(at 439.42 245.11)
@@ -11454,10 +11643,6 @@
 	(no_connect
 		(at 381 321.31)
 		(uuid "ebda5141-8b5b-45f3-b968-c1ad3705c256")
-	)
-	(no_connect
-		(at 562.61 90.17)
-		(uuid "fb33a7d2-67ef-48cc-a3c7-551333130b03")
 	)
 	(no_connect
 		(at 410.21 139.7)
@@ -11486,6 +11671,16 @@
 			(type default)
 		)
 		(uuid "008e94a2-473e-407a-b503-549c5121db72")
+	)
+	(wire
+		(pts
+			(xy 567.69 115.57) (xy 567.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00cdbf5a-dafe-402a-94e0-237c12242fcd")
 	)
 	(wire
 		(pts
@@ -11556,6 +11751,26 @@
 			(type default)
 		)
 		(uuid "03571a08-a433-4ed1-81f8-294ccef95719")
+	)
+	(wire
+		(pts
+			(xy 524.51 123.19) (xy 524.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03efcb12-a1fa-49ec-9d25-38ecc6a302c7")
+	)
+	(wire
+		(pts
+			(xy 514.35 118.11) (xy 514.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0485fd10-a52c-493f-9c12-d7e498146c2c")
 	)
 	(wire
 		(pts
@@ -11859,16 +12074,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 97.79) (xy 563.88 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "110ad6f8-e65f-4a41-a7c7-28209576afb8")
-	)
-	(wire
-		(pts
 			(xy 142.24 200.66) (xy 142.24 198.12)
 		)
 		(stroke
@@ -12039,16 +12244,6 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 90.17) (xy 496.57 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1966b929-c18c-4be0-b2bd-6fd04a93ff55")
-	)
-	(wire
-		(pts
 			(xy 180.34 116.84) (xy 182.88 116.84)
 		)
 		(stroke
@@ -12056,16 +12251,6 @@
 			(type default)
 		)
 		(uuid "1ae63496-c826-4528-bee7-a2437be7c4e4")
-	)
-	(wire
-		(pts
-			(xy 519.43 118.11) (xy 527.05 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b2a1dd8-6886-4564-b371-047431dd5ea4")
 	)
 	(wire
 		(pts
@@ -12149,6 +12334,16 @@
 	)
 	(wire
 		(pts
+			(xy 561.34 127) (xy 561.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0103ef-f7fc-455c-b244-3d6606a5edf5")
+	)
+	(wire
+		(pts
 			(xy 134.62 146.05) (xy 134.62 149.86)
 		)
 		(stroke
@@ -12209,6 +12404,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 110.49) (xy 488.95 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216a7fb7-e029-4637-bc35-200169130c2c")
+	)
+	(wire
+		(pts
 			(xy 455.93 140.97) (xy 455.93 146.05)
 		)
 		(stroke
@@ -12219,13 +12424,13 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 92.71) (xy 576.58 97.79)
+			(xy 524.51 120.65) (xy 524.51 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2236bc80-a791-4efe-8282-becfec1ec4ae")
+		(uuid "21f26fe8-69cf-4381-a46a-eac66fcc220e")
 	)
 	(wire
 		(pts
@@ -12276,6 +12481,16 @@
 			(type default)
 		)
 		(uuid "2495a90e-0103-4eb7-8f20-159818920140")
+	)
+	(wire
+		(pts
+			(xy 574.04 113.03) (xy 574.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b6df46-ca8a-403c-85a6-aaaaccd503d7")
 	)
 	(wire
 		(pts
@@ -12336,6 +12551,16 @@
 			(type default)
 		)
 		(uuid "25fa8b46-ad0d-4a50-83fe-dc4bea83024c")
+	)
+	(wire
+		(pts
+			(xy 508 125.73) (xy 508 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2687becc-663b-4f45-9baa-e783d676a255")
 	)
 	(wire
 		(pts
@@ -12546,16 +12771,6 @@
 			(type default)
 		)
 		(uuid "33d63a01-f882-4d7e-9f13-58e25e4f2631")
-	)
-	(wire
-		(pts
-			(xy 487.68 81.28) (xy 487.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34424a62-1de3-4256-a909-0b56bf8db285")
 	)
 	(wire
 		(pts
@@ -12899,6 +13114,16 @@
 	)
 	(wire
 		(pts
+			(xy 524.51 123.19) (xy 527.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e5309b-4ae1-4e9b-8948-5bad53e2fe2d")
+	)
+	(wire
+		(pts
 			(xy 53.34 334.01) (xy 57.15 334.01)
 		)
 		(stroke
@@ -12986,16 +13211,6 @@
 			(type default)
 		)
 		(uuid "492611b5-0c38-44b0-8623-b349f1b15d21")
-	)
-	(wire
-		(pts
-			(xy 482.6 74.93) (xy 482.6 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49f0fe6b-162b-4518-82e7-d478f15a3851")
 	)
 	(wire
 		(pts
@@ -13087,16 +13302,6 @@
 		)
 		(uuid "501db8a8-228d-4544-8c35-88c1edcad605")
 	)
-	(polyline
-		(pts
-			(xy 477.52 118.11) (xy 477.52 12.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "508a02c3-7d77-467b-8994-02cf6cd6f02d")
-	)
 	(wire
 		(pts
 			(xy 124.46 134.62) (xy 124.46 140.97)
@@ -13177,16 +13382,6 @@
 		)
 		(uuid "570ea229-d7e2-424b-b15f-e423b010971e")
 	)
-	(wire
-		(pts
-			(xy 513.08 125.73) (xy 513.08 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5758d8b7-7c5e-4b15-8d96-fae0c0ffec4b")
-	)
 	(polyline
 		(pts
 			(xy 298.45 83.82) (xy 373.38 83.82)
@@ -13196,16 +13391,6 @@
 			(type default)
 		)
 		(uuid "57b4a167-948c-4ca3-9015-94f561b11c6d")
-	)
-	(wire
-		(pts
-			(xy 572.77 97.79) (xy 572.77 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57bf0233-aadf-4755-990f-6a54b48e6e6f")
 	)
 	(wire
 		(pts
@@ -13439,16 +13624,6 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 81.28) (xy 494.03 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9b97c2-7168-47dd-adb8-6b3017f4c40c")
-	)
-	(wire
-		(pts
 			(xy 228.6 340.36) (xy 234.95 340.36)
 		)
 		(stroke
@@ -13506,16 +13681,6 @@
 			(type default)
 		)
 		(uuid "627d9cd9-442a-4dbf-b706-6de58fa8eb46")
-	)
-	(wire
-		(pts
-			(xy 527.05 43.18) (xy 527.05 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63184266-0fa8-4dbb-a635-2446dc60f215")
 	)
 	(wire
 		(pts
@@ -13616,6 +13781,16 @@
 			(type default)
 		)
 		(uuid "6ab037b7-fa90-4b8a-8ddc-5962fdc27b67")
+	)
+	(wire
+		(pts
+			(xy 514.35 118.11) (xy 508 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ade059d-7338-4f63-8ad2-55506d0e23b0")
 	)
 	(wire
 		(pts
@@ -13757,6 +13932,16 @@
 		)
 		(uuid "722d159d-1113-4fd0-8e97-0327bbca1c25")
 	)
+	(polyline
+		(pts
+			(xy 477.52 83.82) (xy 581.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ab0f4c-02de-4674-9d50-77eb186cc2e2")
+	)
 	(wire
 		(pts
 			(xy 134.62 146.05) (xy 138.43 146.05)
@@ -13776,6 +13961,16 @@
 			(type default)
 		)
 		(uuid "73b588e0-0bfc-40da-9846-abac003dca4c")
+	)
+	(wire
+		(pts
+			(xy 497.84 110.49) (xy 527.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b76225-b89a-4d03-a127-bf1d51f5d1fe")
 	)
 	(wire
 		(pts
@@ -13869,16 +14064,6 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 125.73) (xy 519.43 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78c56931-b03f-4f35-8ec6-bc1a70bed461")
-	)
-	(wire
-		(pts
 			(xy 245.11 287.02) (xy 245.11 292.1)
 		)
 		(stroke
@@ -13956,16 +14141,6 @@
 			(type default)
 		)
 		(uuid "7cb833b9-dd94-43c3-997f-90aee04afff2")
-	)
-	(wire
-		(pts
-			(xy 492.76 77.47) (xy 494.03 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d543688-b470-4587-aff9-d6c7951f9fde")
 	)
 	(polyline
 		(pts
@@ -14179,6 +14354,16 @@
 	)
 	(wire
 		(pts
+			(xy 562.61 106.68) (xy 562.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fa7f4d-11fe-454b-b823-3bebb687155f")
+	)
+	(wire
+		(pts
 			(xy 443.23 146.05) (xy 449.58 146.05)
 		)
 		(stroke
@@ -14266,6 +14451,16 @@
 			(type default)
 		)
 		(uuid "89c36dc5-abbb-4c8e-b542-7354938dd9dc")
+	)
+	(wire
+		(pts
+			(xy 514.35 125.73) (xy 514.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ddcc37-06d8-49eb-a9f7-8c3fccdc02e5")
 	)
 	(wire
 		(pts
@@ -14399,6 +14594,16 @@
 	)
 	(wire
 		(pts
+			(xy 514.35 113.03) (xy 514.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9015508f-f838-4365-830a-746232f22b98")
+	)
+	(wire
+		(pts
 			(xy 321.31 133.35) (xy 322.58 133.35)
 		)
 		(stroke
@@ -14486,6 +14691,16 @@
 			(type default)
 		)
 		(uuid "94950e21-5ba0-440f-b5de-ef1c1bb6aa0d")
+	)
+	(wire
+		(pts
+			(xy 508 118.11) (xy 504.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ca5e93-5cd8-47ac-9a8c-9815467ab8ba")
 	)
 	(wire
 		(pts
@@ -14869,16 +15084,6 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 36.83) (xy 532.13 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c57bd7-c1e5-4bfd-a241-e9d7e2ac1d6f")
-	)
-	(wire
-		(pts
 			(xy 36.83 196.85) (xy 36.83 203.2)
 		)
 		(stroke
@@ -15209,6 +15414,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 113.03) (xy 514.35 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6122c9f-232e-494f-b35d-f25a34552625")
+	)
+	(wire
+		(pts
 			(xy 280.67 340.36) (xy 280.67 326.39)
 		)
 		(stroke
@@ -15246,16 +15461,6 @@
 			(type default)
 		)
 		(uuid "b6ff6b8b-ebb4-4fce-8cc1-e851d57e2463")
-	)
-	(wire
-		(pts
-			(xy 513.08 118.11) (xy 513.08 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b759f865-f5b8-4ffc-b414-b57b5065d1d1")
 	)
 	(wire
 		(pts
@@ -15417,16 +15622,6 @@
 		)
 		(uuid "bfa77cf4-6288-49c9-beca-e573c9bb3ece")
 	)
-	(wire
-		(pts
-			(xy 576.58 97.79) (xy 572.77 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfbd1d3e-4eba-413f-b3e3-e7d8ea9618e6")
-	)
 	(polyline
 		(pts
 			(xy 304.8 280.67) (xy 304.8 407.67)
@@ -15436,6 +15631,16 @@
 			(type default)
 		)
 		(uuid "c0651e76-889a-4e79-911b-7acc5f4b65a4")
+	)
+	(wire
+		(pts
+			(xy 552.45 115.57) (xy 567.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a31463-53bf-4e88-bf73-698cbcca7ade")
 	)
 	(wire
 		(pts
@@ -15569,6 +15774,16 @@
 	)
 	(wire
 		(pts
+			(xy 556.26 118.11) (xy 556.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7332f54-13a9-4dd6-9069-e35de1a448c3")
+	)
+	(wire
+		(pts
 			(xy 83.82 367.03) (xy 86.36 367.03)
 		)
 		(stroke
@@ -15576,16 +15791,6 @@
 			(type default)
 		)
 		(uuid "c7aea645-dfad-4db8-85f1-75aae15b1674")
-	)
-	(wire
-		(pts
-			(xy 519.43 118.11) (xy 513.08 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7d2ad8b-f429-4a47-9dbc-b14d5d0a287a")
 	)
 	(wire
 		(pts
@@ -15636,6 +15841,16 @@
 			(type default)
 		)
 		(uuid "c9c1da75-2f8a-42cd-97d7-5712f64e1146")
+	)
+	(wire
+		(pts
+			(xy 508 118.11) (xy 508 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f8e451-d8d6-4478-a776-8ea9fccd34f9")
 	)
 	(wire
 		(pts
@@ -15779,6 +15994,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 110.49) (xy 497.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0bd679c-ff01-4b9a-8837-b91cfeaa1e3d")
+	)
+	(wire
+		(pts
 			(xy 497.84 163.83) (xy 497.84 166.37)
 		)
 		(stroke
@@ -15816,16 +16041,6 @@
 			(type default)
 		)
 		(uuid "d19c3f3c-a087-4f6b-944d-485d33ccd29f")
-	)
-	(wire
-		(pts
-			(xy 529.59 38.1) (xy 529.59 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1e93a5f-3d08-4df0-bffe-63245b6fb6f6")
 	)
 	(wire
 		(pts
@@ -15919,6 +16134,16 @@
 	)
 	(wire
 		(pts
+			(xy 572.77 109.22) (xy 574.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7558d11-8cef-4819-98bf-51d8933206f6")
+	)
+	(wire
+		(pts
 			(xy 469.9 246.38) (xy 469.9 251.46)
 		)
 		(stroke
@@ -16006,16 +16231,6 @@
 			(type default)
 		)
 		(uuid "db2c9077-98ff-431b-bc42-452b61441ca9")
-	)
-	(wire
-		(pts
-			(xy 563.88 97.79) (xy 572.77 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db5e424f-4f38-4d30-82de-069749731fea")
 	)
 	(wire
 		(pts
@@ -16237,16 +16452,6 @@
 		)
 		(uuid "e55ddc3b-090f-49e8-b0cf-7a8c8a5f028c")
 	)
-	(wire
-		(pts
-			(xy 513.08 118.11) (xy 509.27 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5a7be01-adc7-46c0-8adc-3cad80405579")
-	)
 	(polyline
 		(pts
 			(xy 109.22 280.67) (xy 109.22 407.67)
@@ -16256,6 +16461,16 @@
 			(type default)
 		)
 		(uuid "e6908b12-4b34-435d-9ece-0572b229f252")
+	)
+	(wire
+		(pts
+			(xy 527.05 120.65) (xy 524.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e47c2c-0959-484e-824b-e1907b99313b")
 	)
 	(wire
 		(pts
@@ -16469,16 +16684,6 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 118.11) (xy 519.43 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb4e56e-2fd8-42c8-b012-b62e211af43e")
-	)
-	(wire
-		(pts
 			(xy 45.72 125.73) (xy 45.72 129.54)
 		)
 		(stroke
@@ -16649,6 +16854,16 @@
 	)
 	(wire
 		(pts
+			(xy 556.26 127) (xy 561.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d2d54e-6998-4529-a11c-b0b03df4e755")
+	)
+	(wire
+		(pts
 			(xy 74.93 330.2) (xy 74.93 331.47)
 		)
 		(stroke
@@ -16769,13 +16984,23 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 115.57) (xy 527.05 118.11)
+			(xy 497.84 110.49) (xy 497.84 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb0edd32-3cca-4f2d-bf39-7c57a93e6f1b")
+		(uuid "fadcfaba-e68f-4a22-83d3-3c671c3d0b28")
+	)
+	(wire
+		(pts
+			(xy 488.95 105.41) (xy 488.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb215932-b348-402e-b9a1-e1efc97baf26")
 	)
 	(wire
 		(pts
@@ -16809,16 +17034,6 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 97.79) (xy 563.88 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd1f0872-fd98-48a7-ba2a-73c553d05c51")
-	)
-	(wire
-		(pts
 			(xy 139.7 379.73) (xy 149.86 379.73)
 		)
 		(stroke
@@ -16826,6 +17041,16 @@
 			(type default)
 		)
 		(uuid "fd24eb7c-22ed-46b7-b839-fc1f34ea20d5")
+	)
+	(wire
+		(pts
+			(xy 552.45 118.11) (xy 556.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3738ca-86a6-4d56-bb13-fd9669c735f3")
 	)
 	(polyline
 		(pts
@@ -16866,16 +17091,6 @@
 			(type default)
 		)
 		(uuid "ff9ed15d-2e21-42b0-bee8-0ad2f689111f")
-	)
-	(wire
-		(pts
-			(xy 529.59 121.92) (xy 529.59 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffac1088-bbb0-4d1b-9875-2fa60c82f210")
 	)
 	(wire
 		(pts
@@ -16937,16 +17152,6 @@
 		)
 		(uuid "09aa5883-4b01-4c2f-9e83-fbc25703594d")
 	)
-	(label "I2C_SCL"
-		(at 529.59 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a2fc8b9-30d7-458c-8e3e-38185582545a")
-	)
 	(label "SERVO_1"
 		(at 86.36 330.2 0)
 		(effects
@@ -16987,16 +17192,6 @@
 		)
 		(uuid "128abc3e-befb-46f6-a5c6-9a360b049600")
 	)
-	(label "I2C_SDA"
-		(at 527.05 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12ab3674-22d0-4195-9fb5-d4f15f719192")
-	)
 	(label "SPI_MOSI"
 		(at 322.58 224.79 0)
 		(effects
@@ -17016,6 +17211,16 @@
 			(justify left bottom)
 		)
 		(uuid "16d2653b-ec92-439a-9846-36d2d1774892")
+	)
+	(label "I2C_SCL"
+		(at 552.45 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a2dfeec-ad11-4eca-821a-056e24709e8e")
 	)
 	(label "QSPI_SD2"
 		(at 497.84 171.45 180)
@@ -17396,6 +17601,16 @@
 			(justify right bottom)
 		)
 		(uuid "8087003a-a911-424b-8137-123c2774840a")
+	)
+	(label "I2C_SDA"
+		(at 552.45 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "885930d1-de3a-417a-bf4f-8aa915059e75")
 	)
 	(label "BUZZER"
 		(at 322.58 257.81 0)
@@ -17945,6 +18160,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 67.31 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5821e2f5-f902-4daa-b064-ff646e2b09b5")
 		)
@@ -18146,6 +18379,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 156.21 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 156.21 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "801baf4f-57a2-41f0-9e1a-1d0190cbcb22")
 		)
@@ -18325,6 +18576,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 539.75 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 539.75 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f91990d7-291b-4bf2-916a-44b8737e7b16")
 		)
@@ -18411,6 +18680,24 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 144.78 181.61 0)
 			(effects
 				(font
@@ -18558,6 +18845,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 539.75 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 539.75 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0abf4b0-43ef-4066-825a-2d562f0aaef2")
 		)
@@ -18618,6 +18923,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 238.76 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 238.76 340.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 238.76 340.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18945,6 +19268,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 245.11 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 245.11 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2456f3b2-39f6-4e1f-a87c-7286d139e869")
 		)
@@ -19006,6 +19347,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 486.41 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 486.41 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 486.41 360.68 0)
 			(effects
 				(font
@@ -19413,6 +19772,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 267.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 267.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f22bf65a-1634-4bc1-9ef4-16527bffcce3")
 		)
@@ -19423,6 +19800,71 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 574.04 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ea232f8-ea85-4642-8588-0b5c4c3b303e")
+		(property "Reference" "#PWR0118"
+			(at 574.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 574.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 574.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 574.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 574.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4e5585f-b1f6-4284-8ed7-6347f5477b1c")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -19472,6 +19914,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 62.23 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 62.23 334.01 0)
 			(effects
 				(font
@@ -19609,6 +20069,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 143.51 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 143.51 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -19769,6 +20247,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 138.43 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c26d5fd-490d-4b4f-96e3-3486b238799b")
 		)
@@ -19839,6 +20335,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 279.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 279.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "5a84c19f-4832-4d51-b238-1e8efbabadce")
 		)
@@ -19855,6 +20369,72 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "STATUS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 488.95 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "113bbdad-cd7c-4f96-a085-03380a81218e")
+		(property "Reference" "#PWR0103"
+			(at 488.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 488.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 488.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 488.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 488.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4c135ec-a69d-478e-a2ff-3a4c8f2df1e1")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -19972,6 +20552,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 340.36 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 340.36 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 340.36 316.23 0)
 			(effects
 				(font
@@ -20115,6 +20713,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 502.92 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 502.92 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0cc1e6e7-ea01-458f-9967-eee8ead14f61")
 		)
@@ -20180,6 +20796,24 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 165.1 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 165.1 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 165.1 379.73 0)
 			(effects
 				(font
@@ -20260,6 +20894,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 331.47 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 331.47 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d12d03f9-0c73-4bec-b7f2-d410b21a8068")
 		)
@@ -20328,6 +20980,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 490.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 490.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ec77b59-503f-44ea-9737-275a91ab0ee7")
 		)
@@ -20338,6 +21008,72 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 561.34 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "156ca347-25c4-43fb-bd73-d6b63dd4ad8d")
+		(property "Reference" "#PWR0122"
+			(at 561.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 561.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 561.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 561.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 561.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1c813be-5784-4225-a988-97b8bbd78119")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -20520,6 +21256,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 80.01 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 80.01 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 80.01 330.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20727,6 +21481,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 322.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 322.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e9c08e5-f6e3-450c-9747-aa4d922b9fbf")
 		)
@@ -20808,72 +21580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 563.88 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e573be8-664e-4491-b0c3-677861d7613d")
-		(property "Reference" "#PWR053"
-			(at 563.88 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 563.88 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 563.88 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 563.88 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 563.88 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c997534b-d334-4e17-9c73-e1158a21f2c6")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 295.91 167.64 90)
 		(unit 1)
@@ -20918,6 +21624,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 295.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 295.91 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 295.91 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20987,6 +21711,24 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 193.04 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 193.04 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 193.04 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21129,6 +21871,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 576.58 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 576.58 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "677cdfaf-3964-4a3e-accf-24d797e3da3f")
 		)
@@ -21262,6 +22022,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 516.89 314.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 516.89 314.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae525f62-0735-46e5-b91a-8968a1005aec")
 		)
@@ -21324,6 +22102,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 187.96 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 187.96 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21458,6 +22254,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 447.04 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 447.04 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 447.04 317.5 0)
 			(effects
 				(font
@@ -21798,6 +22612,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 43.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d49579c9-875f-405d-a407-27249d588160")
 		)
@@ -22066,6 +22898,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 563.88 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 563.88 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adee321c-3fef-4505-a315-6b539bef5f81")
 		)
@@ -22268,6 +23118,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 402.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 402.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac802c30-c0cb-424e-969a-91790e9a5196")
 		)
@@ -22402,6 +23270,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 137.16 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce14c8a5-6cfc-4455-9db9-8b9d0e43e112")
 		)
@@ -22463,6 +23349,24 @@
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 455.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 455.93 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 455.93 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22605,6 +23509,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 350.52 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 350.52 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
@@ -22660,6 +23582,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 436.88 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 436.88 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 436.88 393.7 0)
 			(effects
 				(font
@@ -22735,6 +23675,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 459.74 356.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 459.74 356.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f545b7c-c7df-4fa9-8746-8d8b2a8f0b36")
 		)
@@ -22745,82 +23703,6 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 453.39 313.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d284bf0-16f0-49ec-ac71-c92a37edf383")
-		(property "Reference" "Q6"
-			(at 458.47 312.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 458.47 314.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 458.47 315.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 453.39 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 453.39 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e540a089-ea5b-4203-9f9e-08bef00e58fc")
-		)
-		(pin "2"
-			(uuid "ee30b4bb-0fee-4278-a7bd-ea3690fdb2c2")
-		)
-		(pin "3"
-			(uuid "d5d7d711-574c-4720-b71c-9b18222f5adf")
-		)
-		(instances
-			(project ""
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -22876,6 +23758,24 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 444.5 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 444.5 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 444.5 330.2 0)
 			(effects
 				(font
@@ -23022,6 +23922,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ef2836d-1063-4048-8b97-db581921f136")
 		)
@@ -23083,6 +24001,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 511.81 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 511.81 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 511.81 314.96 0)
 			(effects
 				(font
@@ -23216,6 +24152,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 62.23 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 62.23 370.84 0)
 			(effects
 				(font
@@ -23488,6 +24442,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 469.9 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 469.9 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "87620d74-62f7-4e33-bba5-8c6ba1bc2226")
 		)
@@ -23642,6 +24614,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 67.31 274.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 274.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6824f6f7-4894-4840-9c21-23329b33730c")
 		)
@@ -23718,72 +24708,6 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 529.59 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e290371-b0a9-430f-81b5-25106a861e31")
-		(property "Reference" "#PWR047"
-			(at 529.59 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 529.59 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 529.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 529.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 529.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cae657c7-2e50-4685-a9f3-ef5405cdbf55")
-		)
-		(instances
-			(project ""
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -23911,6 +24835,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 406.4 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 406.4 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -24289,6 +25231,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "bd6bd898-fcbb-4b8f-bfde-6406533f71a5")
 		)
@@ -24373,6 +25333,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 311.15 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 311.15 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 311.15 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24514,6 +25492,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 288.29 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 288.29 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f956eab6-28c0-46f9-aee7-914fa0a2373b")
 		)
@@ -24575,6 +25571,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 46.99 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 46.99 367.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 46.99 367.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24717,6 +25731,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 557.53 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 557.53 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb77e7a0-b387-4d13-b9de-aadd0e52e8b0")
 		)
@@ -24727,6 +25759,72 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 488.95 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a980f2b-55e4-4b9b-a46a-89760beabfb0")
+		(property "Reference" "#PWR099"
+			(at 488.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 488.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 488.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 488.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 488.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df023472-25ff-46a7-b524-1e8de031a901")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -24778,6 +25876,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 60.96 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 60.96 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 60.96 246.38 0)
 			(effects
 				(font
@@ -24847,6 +25963,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 46.99 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 46.99 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 46.99 330.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24980,6 +26114,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 450.85 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 450.85 381 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 450.85 381 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25123,6 +26275,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 391.16 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 391.16 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f44327c-9826-42ab-9f48-bde9c8d64c5c")
 		)
@@ -25193,6 +26363,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c598bfa-6248-416f-a5a9-a5ba41687089")
 		)
@@ -25203,72 +26391,6 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 482.6 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e263880-8445-4564-a9e7-891ede0c7b59")
-		(property "Reference" "#PWR051"
-			(at 482.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 482.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 482.6 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 482.6 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 482.6 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d51c8e3-3bc4-4e71-b1c1-bd3155599f3f")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -25526,6 +26648,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3acb75d-faaf-4641-b3fc-2f0550aebd09")
 		)
@@ -25654,6 +26794,24 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi"
+			(at 297.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 297.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 297.18 227.33 0)
 			(effects
 				(font
@@ -25844,6 +27002,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 524.51 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72603da2-50ea-4fef-a0ea-001d2a2a1756")
+		(property "Reference" "#PWR0115"
+			(at 524.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 524.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 524.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 524.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d6edf4a-7747-4a09-8417-2d7ce9fc8d11")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 86.36 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25954,6 +27178,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 302.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 302.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 302.26 167.64 0)
 			(effects
 				(font
@@ -26114,6 +27356,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 461.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 461.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abda0a9d-6ddd-4632-9aca-e85368afa9df")
 		)
@@ -26175,6 +27435,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 530.86 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 530.86 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 530.86 245.11 0)
 			(effects
 				(font
@@ -26318,6 +27596,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 514.35 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 514.35 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "97152832-d8b4-49ed-821b-8a5d22ebed95")
 		)
@@ -26400,24 +27696,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 487.68 77.47 0)
+		(lib_id "power:+3.3V")
+		(at 562.61 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7896a5ae-caf9-466c-b3b8-8112c2bf6d4b")
-		(property "Reference" "JP4"
-			(at 487.934 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 490.474 77.47 0)
+		(fields_autoplaced yes)
+		(uuid "79642e9a-8df3-4822-abb4-7a4f2702aabe")
+		(property "Reference" "#PWR0117"
+			(at 562.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26425,8 +27714,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 487.68 77.47 0)
+		(property "Value" "+3.3V"
+			(at 562.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 562.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26434,8 +27731,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 487.68 77.47 0)
+		(property "Datasheet" ""
+			(at 562.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26443,28 +27740,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 487.68 77.47 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 562.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "ac1fd48d-c4e7-4c23-b357-f8adfe7d271c")
 		)
 		(pin "1"
-			(uuid "ce565c3e-ce77-4987-82f9-e1bdbff701cc")
-		)
-		(pin "3"
-			(uuid "353c9541-7e22-4e1f-8fde-6de675f6bb1b")
+			(uuid "1493174b-629a-4201-9f34-d8d47c0f949a")
 		)
 		(instances
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "JP4")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -26588,6 +27879,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 449.58 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 449.58 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88a0a1c8-eeba-4fb7-a09d-c778dbde5fae")
 		)
@@ -26650,6 +27959,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 332.74 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 332.74 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 332.74 391.16 0)
 			(effects
 				(font
@@ -26786,6 +28113,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 157.48 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 157.48 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7127a7b-9e3f-4f2e-bd24-96f8e3dbb76c")
 		)
@@ -26847,6 +28192,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 250.19 125.73 0)
 			(effects
 				(font
@@ -26974,6 +28337,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 193.04 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 193.04 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -27113,6 +28494,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 323.85 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 323.85 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4340a1d-571b-4dba-b746-f7fa0985a392")
 		)
@@ -27195,34 +28594,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 563.88 115.57 180)
+		(lib_id "power:GND")
+		(at 508 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "883d9c6e-76bf-42aa-b173-ee54aab14972")
-		(property "Reference" "C21"
-			(at 557.022 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 555.752 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 563.88 115.57 0)
+		(fields_autoplaced yes)
+		(uuid "8833d2bc-c743-41a0-bbd6-9ee9dc4f3c56")
+		(property "Reference" "#PWR0107"
+			(at 508 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27230,8 +28612,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 563.88 115.57 0)
+		(property "Value" "GND"
+			(at 508 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 508 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27239,8 +28629,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 563.88 115.57 0)
+		(property "Datasheet" ""
+			(at 508 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 508 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27249,15 +28648,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b89246d5-84ad-4845-a668-3816d9ab13df")
-		)
-		(pin "2"
-			(uuid "facc7815-8c42-46f3-b8cf-ca30fdc4994f")
+			(uuid "1b89e738-20fb-4c3d-ac4c-2236cec66b5b")
 		)
 		(instances
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "C21")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -27310,6 +28706,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 368.3 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 368.3 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 368.3 391.16 0)
 			(effects
 				(font
@@ -27373,6 +28787,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 55.88 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 55.88 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 55.88 247.65 0)
 			(effects
 				(font
@@ -27514,6 +28946,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 241.3 381 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 241.3 381 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "009fa4b3-572b-4a56-9ea7-2b4befb6f576")
 		)
@@ -27575,6 +29025,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 316.23 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 316.23 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 316.23 334.01 0)
 			(effects
 				(font
@@ -27710,6 +29178,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 508 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 508 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 508 238.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27853,6 +29339,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50451b62-e878-450c-8a09-4fcf27014732")
 		)
@@ -27863,6 +29367,72 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 497.84 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4ba5a6-f18d-41fd-9489-6a75c958275d")
+		(property "Reference" "#PWR0100"
+			(at 497.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 497.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 497.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 497.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 497.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56914217-c74a-47d3-86aa-ad71a5abde72")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -27914,6 +29484,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 360.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 360.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 360.68 121.92 0)
 			(effects
 				(font
@@ -28108,6 +29696,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 242.57 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 242.57 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8accb5f8-202f-4713-9219-9884376126c0")
 		)
@@ -28243,6 +29849,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 469.9 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 469.9 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbda10fe-240c-40b1-a329-47d29440ff70")
 		)
@@ -28253,75 +29877,6 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 513.08 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9403af5b-fbec-43ac-9500-5f0e1703017e")
-		(property "Reference" "C14"
-			(at 506.476 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 506.476 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 513.08 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 513.08 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 513.08 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1da1b96b-3567-4713-8dcd-2e273f2b812a")
-		)
-		(pin "2"
-			(uuid "dd22f26c-83bd-4b71-abae-b65fcda539c5")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -28372,6 +29927,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 162.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 162.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 162.56 129.54 0)
 			(effects
 				(font
@@ -28450,75 +30023,6 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "E22-400M22S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 519.43 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98262fe7-785a-4319-9e5f-87012c2f70f3")
-		(property "Reference" "C25"
-			(at 526.288 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 527.558 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 519.43 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 519.43 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 519.43 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74914965-6e5e-4a83-99d3-8f367c26e7d9")
-		)
-		(pin "2"
-			(uuid "ff89bbcc-4e76-4a8d-8895-e9162a0d161b")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -28840,6 +30344,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 43.18 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "374b2cdb-7278-4040-b36b-fbad0581b224")
 		)
@@ -28910,6 +30432,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 334.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 334.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 334.01 121.92 0)
 			(effects
 				(font
@@ -29184,6 +30724,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 449.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 449.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3e9d605-0345-4c13-9d2c-3e7c3df9e8b9")
 		)
@@ -29260,75 +30818,6 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 572.77 115.57 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2e7b753-0260-44d4-9695-b2f3a9261856")
-		(property "Reference" "C22"
-			(at 575.056 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 575.056 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 572.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 572.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 572.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f307d0d-9b2d-424a-aa9e-4ac865094aa4")
-		)
-		(pin "2"
-			(uuid "65b98784-02d9-4b16-81ad-fb5a41b8017d")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -29453,6 +30942,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 563.88 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 563.88 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6270babb-d896-4b0a-8356-93f3bb49c74b")
 		)
@@ -29512,6 +31019,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 497.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 497.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 497.84 160.02 0)
 			(effects
 				(font
@@ -29582,6 +31107,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 386.08 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 386.08 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 386.08 391.16 0)
 			(effects
 				(font
@@ -29852,6 +31395,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 85.09 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 85.09 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eced9b33-b491-47d3-a851-c28b9f5c534d")
 		)
@@ -29912,6 +31473,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 461.01 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 461.01 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 461.01 300.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29992,6 +31571,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 196.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 196.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f26a8317-9b43-4f3c-ad04-8ec811d702ed")
 		)
@@ -30062,6 +31659,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 313.69 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 313.69 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76282dbe-3b1d-4ff8-9437-c367364aba9d")
 		)
@@ -30072,72 +31687,6 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 513.08 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aeae2e5c-d2d2-4033-b233-ff2c0894bab2")
-		(property "Reference" "#PWR027"
-			(at 513.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 513.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 513.08 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 513.08 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 513.08 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09f95a89-b824-4197-a8fb-eda84a14bb53")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -30264,6 +31813,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 347.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 347.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2aad97c0-5ef3-4f03-8130-76e49340eed8")
 		)
@@ -30332,6 +31899,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 248.92 304.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 248.92 304.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45375887-8d1a-45ba-99cc-2e84591f7016")
 		)
@@ -30342,71 +31927,6 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 494.03 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b05bbc51-aba4-4213-929a-9da6d0c291b2")
-		(property "Reference" "#PWR052"
-			(at 494.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 494.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 494.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 494.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 494.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a88e8220-53e7-4f1a-a9e0-fe2551b6a12c")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -30458,6 +31978,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 137.16 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30601,6 +32139,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 538.48 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 538.48 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c12df9c0-2b23-4cca-9aeb-ad19873612eb")
 		)
@@ -30736,6 +32292,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 199.39 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "652f9c45-d589-4479-8faf-e5b90526770e")
 		)
@@ -30796,6 +32370,24 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 134.62 153.67 0)
 			(effects
 				(font
@@ -30871,6 +32463,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 502.92 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 502.92 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d041427d-e8a1-4377-933c-f6e633e82adc")
 		)
@@ -30932,6 +32542,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 487.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 487.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 487.68 303.53 0)
 			(effects
 				(font
@@ -31010,6 +32638,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 265.43 388.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 265.43 388.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f935adc-883a-405b-9b0a-7c02f51ef88c")
 		)
@@ -31071,6 +32717,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 502.92 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 502.92 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 502.92 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31148,6 +32812,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 140.97 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 140.97 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9460a6e-ca6f-4502-919e-4e99d863c921")
 		)
@@ -31216,6 +32898,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 248.92 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 248.92 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc9f427f-1cbd-4057-9566-44268ac41774")
 		)
@@ -31226,72 +32926,6 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 532.13 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb42e62a-8314-4dfd-a6d0-053093fab358")
-		(property "Reference" "#PWR048"
-			(at 532.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 532.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 532.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 532.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 532.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc5ead84-078c-4d3c-8db2-6657ea3f74bc")
-		)
-		(instances
-			(project ""
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -31417,6 +33051,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 445.77 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 445.77 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2388287a-0e80-4b78-99a9-b484a929069d")
 		)
@@ -31427,72 +33079,6 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 572.77 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdaf0940-75ef-4b0e-9263-4d2edf8b9eb7")
-		(property "Reference" "#PWR054"
-			(at 572.77 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 572.77 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 572.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 572.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 572.77 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb9b8282-ee67-480e-997e-6d293e33b269")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -31544,6 +33130,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 576.58 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 576.58 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 576.58 339.09 0)
 			(effects
 				(font
@@ -31628,148 +33232,6 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 452.12 372.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bffb71fd-0fbf-4a2d-90be-0001e2665df9")
-		(property "Reference" "Q7"
-			(at 457.2 370.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 457.2 373.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 457.2 374.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 452.12 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 452.12 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0741c9dc-e677-45ad-a0fd-e93a907f5021")
-		)
-		(pin "2"
-			(uuid "c5c92b2b-bc41-48e6-bfdd-56df0e37bbc7")
-		)
-		(pin "3"
-			(uuid "e29127c5-537f-430b-9b01-188a00322414")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 576.58 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0d87eb4-ac1b-4438-bdcb-677a383ca935")
-		(property "Reference" "#PWR049"
-			(at 576.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 576.58 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 576.58 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 576.58 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 576.58 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19f00700-8252-48f4-b986-c0dc75de27ae")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -31895,6 +33357,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 397.51 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 397.51 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d12201e7-4b2c-4748-9bf3-d6c46662f65b")
 		)
@@ -31957,6 +33437,24 @@
 			)
 		)
 		(property "Description" "GNSS Module MAX M10, VCC 1.65V to 3.6V"
+			(at 425.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 425.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 425.45 134.62 0)
 			(effects
 				(font
@@ -32148,6 +33646,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 185.42 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 185.42 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a710a57e-6307-4df4-bcc1-f5e2e0c78e11")
 		)
@@ -32158,72 +33674,6 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 509.27 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c79cb68c-c5ba-402d-866c-63300949543f")
-		(property "Reference" "#PWR050"
-			(at 509.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 509.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 509.27 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 509.27 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 509.27 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4402a5f-64ee-4f08-98f7-9bea32274278")
-		)
-		(instances
-			(project "comp_and_pwr_pcb"
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -32290,164 +33740,6 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ICM-42688-P:ICM-42688-P")
-		(at 496.57 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca10d88f-67d7-480b-a491-a386a400eef7")
-		(property "Reference" "IC2"
-			(at 534.2733 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ICM-42688-P"
-			(at 534.2733 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ICM-42688-P:IIM42352"
-			(at 558.8 149.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/DS-000347-ICM-42688-P-v1.5.pdf"
-			(at 558.8 249.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "IMU (Inertial Measurement Unit), 6-Axis, Accelerometer, Gyroscope"
-			(at 496.57 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 558.8 449.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "410-ICM-42688-P"
-			(at 558.8 549.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-42688-P?qs=OlC7AqGiEDk8QrNAV728zw%3D%3D"
-			(at 558.8 649.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 558.8 749.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ICM-42688-P"
-			(at 558.8 849.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e5aa33b0-01cc-45ea-b7af-76e3754e0ed1")
-		)
-		(pin "14"
-			(uuid "0def9f5e-ccf9-479a-ad6e-042f8d00f904")
-		)
-		(pin "3"
-			(uuid "32b44deb-35ca-42c3-88cd-5ef124ef593c")
-		)
-		(pin "10"
-			(uuid "282ce1ec-dddc-478b-8968-9c617e11721c")
-		)
-		(pin "9"
-			(uuid "5e3fc64e-adf4-420e-a3e6-7dc3b97b816a")
-		)
-		(pin "1"
-			(uuid "e198295a-6283-485e-9207-512f35aec101")
-		)
-		(pin "2"
-			(uuid "0cb5d865-a9e4-4b61-a195-47206f8cccc5")
-		)
-		(pin "4"
-			(uuid "1813be70-27b3-4e1b-ad74-98f211d7a215")
-		)
-		(pin "13"
-			(uuid "1ec40a5d-8515-4ec5-9d26-dbb909131cba")
-		)
-		(pin "6"
-			(uuid "1d2a4563-b884-4722-94f8-50a5e722ca12")
-		)
-		(pin "12"
-			(uuid "ce4a57db-c8d6-415c-a254-5f4a9f980ad4")
-		)
-		(pin "7"
-			(uuid "068b66e3-a44c-4ccb-a5ef-9f0dd271f0b2")
-		)
-		(pin "11"
-			(uuid "6155b584-1f64-409d-b79d-8f88dbee15f2")
-		)
-		(pin "8"
-			(uuid "4f85eb2c-b61b-457e-b176-7a0a704cc34e")
-		)
-		(instances
-			(project ""
-				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -32565,6 +33857,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 137.16 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32902,6 +34212,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 80.01 367.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 80.01 367.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb671fdd-1b63-45ae-a9da-0fd7d4cfda38")
 		)
@@ -32962,6 +34290,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 570.23 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 570.23 323.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 570.23 323.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33236,6 +34582,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 538.48 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 538.48 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d35a15e5-9f24-44f4-8a2e-f7b1320caebf")
 		)
@@ -33487,6 +34851,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 255.27 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 255.27 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "G3"
 			(uuid "2cc3b639-66e5-4b61-8844-ee17a35779ea")
 		)
@@ -33539,6 +34921,229 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LSM6DSO:LSM6DSO")
+		(at 539.75 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d318e594-349d-4610-85f3-918730e17be2")
+		(property "Reference" "U4"
+			(at 539.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LSM6DSO"
+			(at 539.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LSM6DSO:LGA14L"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SPARKFUN 6 DEGREES OF FREEDOM BR"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "VFLGA-14 STMicroelectronics"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LSM6DSO/STMicroelectronics/view-part/?ref=eda"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VALUE" "LSM6DS0"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LSM6DSO/STMicroelectronics/view-part/?ref=snap"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "IC-15837"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LSM6DSO"
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 539.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "83bf8cea-c5c0-4271-930e-15dbc27eb4c8")
+		)
+		(pin "5"
+			(uuid "b753dac5-ccd0-45e6-a73c-97906a313566")
+		)
+		(pin "9"
+			(uuid "d9a60cce-b89a-4f39-a630-ae91a0271649")
+		)
+		(pin "7"
+			(uuid "77056212-d6e0-4307-b088-b05832224bdb")
+		)
+		(pin "10"
+			(uuid "f1a56270-31c0-413c-a5ac-28ba37ed50eb")
+		)
+		(pin "12"
+			(uuid "9013600c-d923-42fc-b8e6-b8840e46fd84")
+		)
+		(pin "4"
+			(uuid "fa13a63b-9715-49c4-a8a6-d7d687dd7916")
+		)
+		(pin "3"
+			(uuid "c0322592-faea-4b5e-aa1b-c5a036953514")
+		)
+		(pin "11"
+			(uuid "ae278dd8-298b-46a6-8e95-434cec742901")
+		)
+		(pin "1"
+			(uuid "38370ed9-2d26-4dc5-b8be-6838ef6a64b3")
+		)
+		(pin "13"
+			(uuid "da37516d-ccb1-4caa-8909-e348d159f573")
+		)
+		(pin "6"
+			(uuid "42d7345d-f669-4561-9d4f-841d9f440e40")
+		)
+		(pin "14"
+			(uuid "17b4df5e-3107-4e9b-93b4-7ab0c07f13a2")
+		)
+		(pin "2"
+			(uuid "b3757bde-61e9-45bb-8184-d29642b5ac40")
+		)
+		(instances
+			(project ""
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -33664,6 +35269,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 153.67 379.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 153.67 379.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "37c7f62a-1bb4-466b-b222-f1f11296e26d")
 		)
@@ -33745,6 +35368,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 199.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 199.39 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 199.39 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33872,6 +35513,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 36.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 36.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "e168e194-4f3b-4563-b7ec-9282a015aefe")
 		)
@@ -33964,6 +35623,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 471.17 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 471.17 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5845e0e4-6d7c-4100-a4e0-8763fc6026c4")
 		)
@@ -33980,17 +35657,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 519.43 128.27 0)
+		(lib_id "Device:C_Small")
+		(at 488.95 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8ecc72e-fd24-483e-9967-b1f0440ca7c9")
-		(property "Reference" "#PWR028"
-			(at 519.43 134.62 0)
+		(uuid "d7a326e2-7ce9-42f7-886e-741f79aed335")
+		(property "Reference" "C26"
+			(at 482.346 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 481.076 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 488.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33998,16 +35692,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 519.43 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 519.43 128.27 0)
+		(property "Datasheet" "~"
+			(at 488.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34015,8 +35701,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 519.43 128.27 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 488.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34024,8 +35710,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 519.43 128.27 0)
+		(property "MPN" ""
+			(at 488.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 488.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34034,12 +35729,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c6934d1-cd8a-4e68-ba90-4670df433646")
+			(uuid "b8bcc4f2-cd6b-4229-9bb2-147b58f750be")
+		)
+		(pin "2"
+			(uuid "756fc9e4-9860-455c-a152-562e966d612f")
 		)
 		(instances
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
-					(reference "#PWR028")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -34091,6 +35789,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 181.61 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 181.61 255.27 0)
 			(effects
 				(font
@@ -34233,6 +35949,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 45.72 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 45.72 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7aaa773a-614b-4b06-8c36-797ea2d4e24e")
 		)
@@ -34295,6 +36029,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 73.66 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 73.66 208.28 0)
 			(effects
 				(font
@@ -34437,6 +36189,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 438.15 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 438.15 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f9713ab-4362-48b9-81d6-544ee65ee2db")
 		)
@@ -34507,6 +36277,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 170.18 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 170.18 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b153b9aa-1c2c-4486-b2dc-88800efe0bf3")
 		)
@@ -34517,6 +36305,93 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 514.35 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc657c72-289d-4660-996a-a9611416e416")
+		(property "Reference" "C32"
+			(at 513.08 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 514.35 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 514.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 514.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 514.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 514.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 514.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "987265a9-6fb9-4786-b4c5-442c48962a86")
+		)
+		(pin "2"
+			(uuid "b7d00eb4-8d58-48d4-846e-e4e6919c943a")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -34643,6 +36518,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 499.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 499.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddd16e2a-c2ad-4c41-a03a-7f43896e3003")
 		)
@@ -34712,6 +36605,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 487.68 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 487.68 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4fcbdbbd-acf6-4133-8086-2551d2bd1442")
 		)
@@ -34774,6 +36685,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 88.9 133.35 0)
 			(effects
 				(font
@@ -34918,6 +36847,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 527.05 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 527.05 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a4e6e36-9f8a-4d6b-ab7d-3564c0a04205")
 		)
@@ -34980,6 +36927,24 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 205.74 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 205.74 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 205.74 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35056,6 +37021,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b52f4f01-65d5-458b-80ad-1f7072d08231")
 		)
@@ -35118,6 +37101,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 414.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 414.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 414.02 163.83 0)
 			(effects
 				(font
@@ -35398,6 +37399,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 499.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 499.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "e9797610-f056-43f1-946b-91940ac9ef64")
 		)
@@ -35426,6 +37445,72 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 504.19 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb512ca8-aba7-432b-b4b8-965db868ff2b")
+		(property "Reference" "#PWR0105"
+			(at 504.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 504.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 504.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 504.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 504.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d8f164b-8fa1-4d2b-99f6-a12ea4a28824")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -35477,6 +37562,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 142.24 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 142.24 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 142.24 194.31 0)
 			(effects
 				(font
@@ -35567,6 +37670,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:DMP3013SFV")
+		(at 452.12 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1d42e53-a5a5-4b3f-a28a-5f01fab4f6e3")
+		(property "Reference" "Q6"
+			(at 458.47 370.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP3013SFV"
+			(at 458.47 373.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+			(at 457.2 374.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
+			(at 457.2 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
+			(at 452.12 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 452.12 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 452.12 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "67416add-9336-4545-b341-78b3cf666389")
+		)
+		(pin "2"
+			(uuid "3ea56494-2ed6-4998-b849-0aa52cb03430")
+		)
+		(pin "3"
+			(uuid "82a9c288-9a33-4f36-af56-e7697b10cf45")
+		)
+		(pin "4"
+			(uuid "fd9243fc-bc58-491d-a731-daa5969dd833")
+		)
+		(pin "1"
+			(uuid "2578c53c-0e01-40d1-b94c-401b79b6fa77")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1SS355VM")
 		(at 469.9 356.87 180)
 		(unit 1)
@@ -35629,6 +37832,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 469.9 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 469.9 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 469.9 356.87 0)
 			(effects
 				(font
@@ -35707,6 +37928,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 236.22 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe8f5973-d083-4dbe-82bd-05dbd283f2ab")
 		)
@@ -35717,6 +37956,159 @@
 			(project ""
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 508 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2b41b53-d6c1-43c1-b378-653d06fd139b")
+		(property "Reference" "C31"
+			(at 502.412 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 502.412 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 508 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 508 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 508 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 508 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 508 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37e2ddbb-8a04-4cf1-93b0-6e4a54c616e8")
+		)
+		(pin "2"
+			(uuid "940f4974-8de2-47c2-958d-bfca80dcaa99")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 514.35 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3d785d8-7688-4afc-a2ea-3f3641971715")
+		(property "Reference" "#PWR0108"
+			(at 514.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 514.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 514.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 514.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 514.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8345cb4d-b7a0-4591-b0a4-ab539a1fcad0")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -35841,6 +38233,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 137.16 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19d022c1-9e8e-40cd-85cb-07c97a168767")
 		)
@@ -35906,6 +38316,24 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 443.23 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 443.23 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 443.23 388.62 0)
 			(effects
 				(font
@@ -35984,6 +38412,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 452.12 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 452.12 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d9f5289-275d-4ac0-80b6-dbddf2938a60")
 		)
@@ -35994,6 +38440,106 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMP3013SFV")
+		(at 453.39 313.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f76d1bee-bd51-4536-8c90-aa8f1b90c57c")
+		(property "Reference" "Q8"
+			(at 459.74 312.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP3013SFV"
+			(at 459.74 314.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+			(at 458.47 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
+			(at 458.47 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
+			(at 453.39 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 453.39 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 453.39 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c98bd6d5-21a4-44b4-b58c-77f2401ea2ee")
+		)
+		(pin "2"
+			(uuid "d7fe446b-ec2a-47e7-8348-1bc0990815ff")
+		)
+		(pin "3"
+			(uuid "f253bc68-ac49-4ea5-a078-483283e686e5")
+		)
+		(pin "4"
+			(uuid "1a982857-1a92-4fe3-b877-b7a19f7448bb")
+		)
+		(pin "1"
+			(uuid "e3bd6ff2-09c3-441d-860f-bb2c2cea0a23")
+		)
+		(instances
+			(project ""
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -36054,6 +38600,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 381 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 381 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac92346c-e3b5-4511-a98c-158dab053338")
 		)
@@ -36064,6 +38628,182 @@
 			(project "comp_and_pwr_pcb"
 				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 497.84 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa5eaa98-5143-4a67-803b-bed293172fb2")
+		(property "Reference" "C27"
+			(at 492.252 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 492.252 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 497.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 497.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 497.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 497.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 497.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4201fc11-924d-4b03-a9f8-8f791206f674")
+		)
+		(pin "2"
+			(uuid "8cca8400-82d4-47d7-aab4-51acffbc3ae5")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 567.69 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa64ce70-b36e-44a9-b941-080ab31ff63f")
+		(property "Reference" "JP2"
+			(at 567.944 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 570.484 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 567.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 567.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 567.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 567.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 567.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49c2ed65-c2a6-4f2e-921e-178266e4a6e8")
+		)
+		(pin "1"
+			(uuid "93704422-ac13-425a-ac28-4f0f05dae011")
+		)
+		(pin "3"
+			(uuid "c978ceaa-12b8-4946-9fea-b62812a87d9b")
+		)
+		(instances
+			(project "comp_and_pwr_pcb"
+				(path "/ae870f52-69c5-42d4-a96b-91dd3b52c883"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -36190,6 +38930,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 288.29 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 288.29 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf1723f9-723d-4efa-9a50-d7e77398c760")
 		)
@@ -36251,6 +39009,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 295.91 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 295.91 349.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 295.91 349.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36378,6 +39154,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 347.98 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 347.98 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "20"
 			(uuid "1517b9ca-077f-4b5f-ab9a-a6b349d7f143")
 		)
@@ -36495,6 +39289,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 504.19 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 504.19 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 504.19 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36637,6 +39449,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 519.43 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 519.43 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7831cdf-2430-440e-b86d-3cac1d75742e")
 		)
@@ -36699,6 +39529,24 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 124.46 146.05 0)
 			(effects
 				(font
