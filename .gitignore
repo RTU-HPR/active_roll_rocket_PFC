@@ -4,7 +4,9 @@
 *.log
 *.kicad_prl
 fp-info-cache
+*.lck
 
 # OS-specific
 .DS_Store
 Thumbs.db
+*-backups
